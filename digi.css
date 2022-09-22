@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{color: blueviolet(78, 159, 212);
+}
+
+.Head{
+    margin: 0px 35px 0px 35px;
+}
+.Head a{margin: 10px;
+    float: left;
+    padding: 10px 12px;
+    font-size: 30px;
+    color: black;
+    text-decoration: wavy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name{
+    float: right;
+}
+.Head a:hover{
+    color: blue;
+}
+#td{
+    font-size: 45px;
+}
+#color{
+    border: 2px solid gray;
+    border-radius: 13px;
+    color: aqua;
+}
+.heading{
+    text-align: center;
+    padding: 100px;
+}
+.heading h1{
+    font-size: 80px;
+}
+.heading p{
+    font-size: 33px;
+}
+.button{
+    border-radius: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    transition: 0.5s;
+    font-size: 15px;
+    margin: 4px 3px;
+    cursor: pointer;
+}
+.button a{
+    text-align: center;
+    color: aqua;
+    border: 1px solid gray;
+}
+.button:hover{
+    opacity: 2;
+}
+.ne{
+    margin: 22px;
+    padding: 56px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.lo span{
+    font-family: serif;
+    text-align: center;
+}
+.tri{
+    color: coral;
+}
+.tri a.hover{
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+}
+.cat{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: aqua;
+}
+.cat a{
+    float: right;
+    display: flex;
+    text-align: right;
+}
+.revi{
+    text-align: right;
+    float: right;
+    display: flex;
+    font-size: 25px;
+}
+
+.footer{
+
+    text-align: center;
+    font-size: 40px;
+    font-family:serif;
+    width: 1000px;
+    height: 400px;
+    margin: 6px 200px 6px 120px;
+    color: rgb(2, 31, 31);
+    padding: 25px 25px 25px 25px;
+    background-color: rgb(233, 233, 216);
+    
+}
+.test{
+    text-align: center;
+    color: rgb(73, 73, 199);
+    font-size: 25px;
+}
+.how{
+    text-align: center;
+    margin: 16px;
+    padding: 10px 70px 10px 70px;
+    background-color: rgb(0, 225, 255);
+    
+}
